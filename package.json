@@ -1,0 +1,36 @@
+{
+  "name": "artqaida-locations",
+  "version": "1.0.0",
+  "description": "A webapp to collect and share fotolocations.",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mplabs/artqaida-locations.git"
+  },
+  "keywords": [
+    "webapp",
+    "geolocation",
+    "foto",
+    "database"
+  ],
+  "author": "Felix Dürrwald <mplabs@mplabs.de>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mplabs/artqaida-locations/issues"
+  },
+  "homepage": "https://github.com/mplabs/artqaida-locations#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "mongodb": "^2.2.5",
+    "morgan": "^1.7.0",
+    "multer": "^1.2.0",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0"
+  }
+}
