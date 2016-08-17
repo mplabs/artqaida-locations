@@ -1,0 +1,28 @@
+{
+  "name": "artqaida-locations",
+  "description": "A webapp to collect and share fotolocations.",
+  "main": "public/index.html",
+  "authors": [
+    "Felix Dürrwald <mplabs@mplabs.de>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "webapp",
+    "geolocation",
+    "foto",
+    "database"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "v4.0.0-alpha.3",
+    "leaflet": "^0.7.7"
+  }
+}
